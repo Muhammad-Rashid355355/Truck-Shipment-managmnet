@@ -1,0 +1,173 @@
+.title,
+.first_name,
+.middle_name,
+.last_name,
+.email,
+.location {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #332288;
+}
+
+.table_input {
+    background: #d9f2ff;
+    border: 1px solid #332288;
+    box-sizing: border-box;
+}
+.edit {
+    button {
+        font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        border: 1px solid #117733;
+        box-sizing: border-box;
+        color: #117733;
+    }
+}
+.date_view {
+    margin-left: 2em;
+    cursor: pointer;
+}
+
+.search_section {
+    .export_csv {
+        border: 1px solid #332288;
+        color: #332288;
+        margin-right: 1em;
+    }
+    .search {
+        margin-right: 0.5em;
+    }
+   
+}
+
+@media only screen and (min-width: 1524px) {
+    .title,
+    .first_name,
+    .middle_name,
+    .last_name,
+    .email,
+    .location {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .table_input {
+        width: 354px;
+        height: 40px;
+        border-radius: 6px;
+    }
+    .edit {
+        button {
+            width: 86px;
+            height: 40px;
+            font-size: 18px;
+            line-height: 22px;
+            border-radius: 6px;
+        }
+    }
+    .last_name {
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1524px) {
+    .title,
+    .first_name,
+    .middle_name,
+    .last_name,
+    .email,
+    .location {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .table_input {
+        width: 330px;
+        height: 37px;
+        border-radius: 5px;
+    }
+    .edit {
+        button {
+            width: 80px;
+            height: 35px;
+            font-size: 15px;
+            line-height: 22px;
+            border-radius: 5px;
+        }
+    }
+    .last_name {
+        text-align: center;
+    }
+    .middle_name {
+        text-align: end;
+    }
+}
+@media only screen and (min-width: 667px) and (max-width: 992px) {
+    .title,
+    .first_name,
+    .middle_name,
+    .last_name,
+    .email,
+    .location {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .table_input {
+        width: 300px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    .edit {
+        button {
+            width: 75px;
+            height: 30px;
+            font-size: 14px;
+            line-height: 22px;
+            border-radius: 5px;
+        }
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+    .title,
+    .first_name,
+    .middle_name,
+    .last_name,
+    .email,
+    .location {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .table_input {
+        width: 280;
+        height: 25px;
+        border-radius: 5px;
+    }
+    .edit {
+        button {
+            width: 70px;
+            height: 30px;
+            font-size: 13px;
+            line-height: 22px;
+            border-radius: 4px;
+        }
+    }
+    
+}
+
+.ant-table-thead {
+    tr {
+        background-color: #332288 !important;
+        min-height: 60px;
+        .ant-table-cell {
+            background-color: #d9f2ff !important;
+        }
+    }
+}
+.ant-btn {
+    border-radius: 0.5rem !important;
+    color: #117733 !important;
+    border: 1px solid #117733;
+}
+.search_input {
+    width: 300px;
+}

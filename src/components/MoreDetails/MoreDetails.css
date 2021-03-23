@@ -1,0 +1,24 @@
+.moreDetails .listItem {
+  margin: 0 30px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+
+  color: #332288;
+}
+.moreDetails .ant-list-bordered {
+  border: none;
+}
+.moreDetails .ant-collapse-header {
+  background: #d9f2ff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  color: #332288;
+}
+.moreDetails .ant-collapse-header #text {
+  color: #332288;
+  text-decoration-color: #332288;
+}

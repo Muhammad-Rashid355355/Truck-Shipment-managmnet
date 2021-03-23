@@ -1,0 +1,50 @@
+.mainPage {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.svg1 {
+    overflow-y: hidden !important;
+    position: absolute;
+    width: 590px;
+    top: 0;
+    right: 0;
+    margin-top: -7px !important;
+}
+.svg2 {
+    position: absolute;
+    width: 300px;
+    top: 60%;
+    bottom: 0;
+    left: 0;
+}
+.loginForm {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formEl {
+    width: 300px;
+    z-index: 1;
+}
+.helpline {
+    float: right;
+    font-family: "Montserrat", sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #44aa99;
+    margin-top: -10px;
+}
+.btn-login {
+    border: none;
+    background: #44aa99;
+    box-shadow: 0px 4px 8px rgba(110, 104, 147, 0.33);
+    border-radius: 4px;
+}
+.btn-login:hover {
+    background: #44aa99;
+}

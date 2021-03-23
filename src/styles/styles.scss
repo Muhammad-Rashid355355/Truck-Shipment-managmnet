@@ -1,0 +1,61 @@
+@import "~antd/dist/antd.css";
+//Google Fonts
+// @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+// main import scss
+@import "./_variables";
+@import "./_typography";
+
+// import feature component scss
+@import "./feature-components/exampleComponent";
+
+// import ui component scss
+@import "./ui-components/button";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+// @font-face {
+//     font-family: "Montserrat";
+//     src: url(./Montserrat/Montserrat-Black.ttf);
+// }
+// @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+// @font-face {
+//     font-family: "Montserrat", sans-serif;
+//     src: url("./Montserrat/Montserrat-Regular.ttf");
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     /* font-family: ' font-family: ' Mulish ', sans-serif;'; */
+//     font-family: "Montserrat", monospace;
+//     src: url("./Montserrat/Montserrat-Bold.ttf");
+//     font-weight: bold;
+//     font-style: normal;
+// }
+
+html {
+    font-size: 10px;
+}
+* {
+    font-family: "Montserrat", sans-serif !important;
+}
+body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    font-size: 1.6rem;
+}
+
+/* Extra Large screens ----------- */
+@media only screen and (min-width: 1525px) {
+}
+/* Large screens ----------- */
+@media only screen and (min-width: 1224px) and (max-width: 1524px) {
+}
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1224px) {
+}
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+}
+
+

@@ -1,0 +1,137 @@
+.key_head {
+    font-family: "Montserrat",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #332288;
+}
+.key_sub_headings {
+    font-family: "Montserrat",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #332288;
+}
+
+.key_input {
+    background: #d9f2ff;
+    border: 1px solid #332288;
+    box-sizing: border-box;
+}
+.generate_key {
+    background: #117733;
+    border: 1px solid #117733;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    color: #ffffff;
+}
+.generate_key:hover,
+.generate_key:active,
+.generate_key:focus-within {
+    color: #332288;
+    background-color: #117733;
+}
+.genrated-btn{
+    font-family: 'Montserrat',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+/* Extra Large screens ----------- */
+@media only screen and (min-width: 1524px) {
+    .key_sub_headings {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .key_input {
+        width: 354px;
+        height: 40px;
+        border-radius: 6px;
+    }
+    .generate_key {
+        width: 558px;
+        height: 60px;
+        border-radius: 6px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+/* Large screens ----------- */
+@media only screen and (min-width: 1224px) and (max-width: 1524px) {
+    .key_sub_headings {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .key_input {
+        width: 340px;
+        height: 38px;
+        border-radius: 5px;
+    }
+    .generate_key {
+        width: 480px;
+        height: 50px;
+        border-radius: 6px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1224px) {
+    .key_sub_headings {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .key_input {
+        width: 250px;
+        height: 33px;
+        border-radius: 5px;
+    }
+    .generate_key {
+        width: 380px;
+        height: 45px;
+        border-radius: 5px;
+        font-size: 15px;
+        line-height: 22px;
+        
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 766px) {
+    .generate_key{
+        width: 330px;
+        height: 45px;
+        border-radius: 5px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .key_input {
+        width: 250px;
+        height: 33px;
+        border-radius: 5px;
+    }
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+    .key_sub_headings {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .key_input {
+        width: 200px;
+        height: 25px;
+        border-radius: 4px;
+    }
+    .generate_key {
+        width: 280px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+}

@@ -1,0 +1,400 @@
+.moreDetails .listItem {
+    margin: 0 30px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #332288;
+}
+.moreDetails .ant-list-bordered {
+    border: none;
+}
+.moreDetails .ant-collapse-header {
+    background: #d9f2ff;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #332288;
+}
+.moreDetails .ant-collapse-header #text {
+    color: #332288;
+    text-decoration-color: #332288;
+}
+
+.lock_order {
+    background: #c4c4c4;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+.reject_order {
+    border: 2px solid #cc6677;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #cc6677;
+}
+.text_area {
+    background: #e8e8e8;
+    border: 1px solid #40308f;
+    box-sizing: border-box;
+}
+.initials {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #117733;
+}
+.initials_contract {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #117733;
+}
+.initials_input {
+    background: #e8e8e8;
+    border: 1px solid #40308f;
+    box-sizing: border-box;
+}
+.order_description {
+    width: 853px;
+    height: 60px;
+    background: #e8e8e8;
+    border: 1px solid #40308f;
+    box-sizing: border-box;
+}
+
+.complete_order {
+    background: #44aa99;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+}
+.reject_order_initals {
+    border: 2px solid #cc6677;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #cc6677;
+}
+
+.moreDetails .ant-collapse-header .ant-collapse-arrow {
+    border: none !important;
+}
+.summary_heading,
+.customer_heading,
+.vehicle_heading,
+.lessor_heading,
+.attachments_heading,
+.fee_heading {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #332288;
+}
+.terms_checkbox {
+    margin-right: 1em;
+}
+.terms_conditions {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #332288;
+}
+
+.owner_sub_heading,
+.fees_sub_heading {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+}
+
+.total_amount_section {
+    text-align: end;
+}
+.total_amount_section input {
+    border-radius: 0.5em;
+}
+.receipt_section input {
+    border-radius: 0.5em;
+}
+
+/* ----------------------------------media quries --------------------------------------- */
+/* Extra Large screens ----------- */
+@media only screen and (min-width: 1524px) {
+    .summary_heading,
+    .customer_heading,
+    .vehicle_heading,
+    .lessor_heading,
+    .attachments_heading,
+    .fee_heading {
+        font-size: 24px;
+        line-height: 150%;
+    }
+    .moreDetails .ant-collapse-header .ant-collapse-arrow {
+        margin-top: 1em !important;
+    }
+    .lock_order {
+        width: 406px;
+        height: 84px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .reject_order {
+        width: 574px;
+        height: 84px;
+        font-size: 18px;
+        line-height: 22px;
+        margin-left: 1em;
+    }
+    .text_area {
+        width: 988px;
+        height: 149px;
+    }
+    .initials {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .initials_contract {
+        margin-left: 7em;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .initials_input {
+        width: 535px;
+        height: 34px;
+        border-radius: 10px;
+    }
+    .complete_order {
+        width: 410px;
+        height: 60px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .reject_order_initals {
+        width: 410px;
+        height: 60px;
+        margin-left: 2em;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .owner_sub_heading,
+    .fees_sub_heading {
+        font-size: 18px;
+        line-height: 150%;
+    }
+    .terms_conditions {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1224px) and (max-width: 1524px) {
+    .summary_heading,
+    .customer_heading,
+    .vehicle_heading,
+    .lessor_heading,
+    .attachments_heading,
+    .fee_heading {
+        font-size: 20px;
+        line-height: 100%;
+    }
+    .moreDetails .ant-collapse-header .ant-collapse-arrow {
+        margin-top: 0.5em !important;
+    }
+    .lock_order {
+        width: 340px;
+        height: 70px;
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .reject_order {
+        width: 440px;
+        height: 70px;
+        font-size: 17px;
+        line-height: 22px;
+        margin-left: 1em;
+    }
+    .text_area {
+        width: 790px;
+        /* height: 190px; */
+    }
+    .initials {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .initials_contract {
+        margin-left: 7em;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .initials_input {
+        width: 430px;
+        height: 30px;
+        border-radius: 8px;
+    }
+    .complete_order {
+        width: 340px;
+        height: 60px;
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .reject_order_initals {
+        width: 340px;
+        height: 60px;
+        margin-left: 2em;
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .owner_sub_heading,
+    .fees_sub_heading {
+        font-size: 17px;
+        line-height: 100%;
+    }
+    .terms_conditions {
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1224px) {
+    .summary_heading,
+    .customer_heading,
+    .vehicle_heading,
+    .lessor_heading,
+    .attachments_heading,
+    .fee_heading {
+        font-size: 18px;
+        line-height: 100%;
+    }
+    .moreDetails .ant-collapse-header .ant-collapse-arrow {
+        margin-top: 0.5em !important;
+    }
+    .lock_order {
+        width: 300px;
+        height: 65px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .reject_order {
+        width: 300px;
+        height: 65x;
+        font-size: 16px;
+        line-height: 22px;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+    .text_area {
+        width: 650px;
+    }
+    .initials {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .initials_contract {
+        margin-left: 5em;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .initials_input {
+        width: 300px;
+        height: 30px;
+        border-radius: 7px;
+    }
+    .complete_order {
+        width: 300px;
+        height: 60px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .reject_order_initals {
+        width: 300px;
+        height: 60px;
+        margin-left: 2em;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .owner_sub_heading,
+    .fees_sub_heading {
+        font-size: 16px;
+        line-height: 100%;
+    }
+    .terms_conditions {
+        font-size: 13px;
+        line-height: 22px;
+    }
+}
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+    .summary_heading,
+    .customer_heading,
+    .vehicle_heading,
+    .lessor_heading,
+    .attachments_heading,
+    .fee_heading {
+        font-size: 17px;
+        line-height: 100%;
+    }
+    .moreDetails .ant-collapse-header .ant-collapse-arrow {
+        margin-top: 0.5em !important;
+    }
+    .lock_order {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .reject_order {
+        width: 250px;
+        height: 50x;
+        font-size: 15px;
+        line-height: 22px;
+        margin-left: 1em;
+        margin-top: 1em;
+    }
+
+    .initials {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .initials_contract {
+        margin-left: 1em;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .initials_input {
+       
+        border-radius: 7px;
+    }
+    .complete_order {
+        width: 200px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .reject_order_initals {
+        width: 200px;
+        margin-top: 1em;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .owner_sub_heading,
+    .fees_sub_heading {
+        font-size: 15px;
+        line-height: 100%;
+    }
+    .terms_conditions {
+        font-size: 10px;
+        line-height: 22px;
+    }
+
+   
+}

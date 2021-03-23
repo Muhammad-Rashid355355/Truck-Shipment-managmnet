@@ -1,0 +1,96 @@
+.terms-page{
+width: 800px;
+height: 470px;
+background: #F4F4F4;
+border-radius: 6px;
+}
+.sv-image{
+    width: 175px;
+    height: 175px;
+    padding-top: 50px;
+
+}
+
+.jwt-api{
+    font-family: 'Montserrat',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+color: #332288;
+text-align: center;
+padding-bottom: 20px;
+}
+
+.Api-license{
+font-family: 'Montserrat',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #332288;
+padding-bottom: 70px;
+}
+
+
+.agree-btn{
+    background: #117733;
+border: 1px solid #117733;
+box-sizing: border-box;
+border-radius: 6px;
+width: 115px;
+height: 60px;
+
+}
+
+.agree-btn-text{
+    
+font-family: 'Montserrat',sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+
+}
+
+.Cancel-btn{
+    border: 1px solid #882255;
+box-sizing: border-box;
+border-radius: 6px;
+width: 115px;
+height: 60px;
+}
+.Cancel-btn-text{
+    font-family: 'Montserrat',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+color: #882255;
+}
+@media only screen and (min-width:300px) and (max-width:575px){
+    .agree{
+        padding-bottom: 10px;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:575px){
+    .Api-license{
+        padding-bottom: 1px;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:788px){
+    .agree-btn{
+        margin-left: -20px;
+        
+    }
+}
+@media only screen and (min-width:300px) and (max-width:610px){
+    .agree-btn{
+        margin-left: -30px;
+        
+    }
+}
+

@@ -1,0 +1,698 @@
+.pagination_row {
+   min-height: 42px;
+
+    background: #d9f2ff;
+    border: 0.1px solid #000000;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+   
+
+    .row_pages_length,
+    .total_pages_length,
+    .current_page {
+        cursor: pointer;
+        font-family: "Montserrat", sans-serif !important;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.05em;
+        color: #332288;
+    }
+    .total_pages_length {
+        text-align: end;
+    }
+}
+.headings_section {
+   
+
+    min-height: 70px;
+    align-items: center;
+    text-align: center;
+    background: #d9f2ff;
+    border: 0.1px solid #000000;
+    box-sizing: border-box;
+
+    .Submitted_Date_title,
+    .Customer_name_title,
+    .Location_title,
+    .Accepted_Date_title,
+    .Completed_Date_title,
+    .accept_order_title {
+        font-family: "Montserrat", sans-serif !important;
+        font-style: normal;
+        font-weight: bold;
+        color: #332288;
+        // margin-right: -20px !important;
+    }
+}
+
+.Submitted_Date,
+.Customer_name,
+.Location,
+.Accepted_Date,
+.Completed_Date,
+.accept_order,
+.order_body,
+.primary_body,
+.createdby_body {
+    font-family: "Montserrat", sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    color: #332288;
+    
+}
+.order_body,
+.primary_body,
+.createdby_body {
+    padding-left: 1em;
+}
+.order_head,
+.primary_head,
+.createdby_head {
+    font-family: "Montserrat", sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    color: #332288;
+}
+
+.view_edit_btn {
+    button {
+        font-family: "Montserrat", sans-serif !important;
+        font-style: normal;
+        font-weight: normal;
+        color: #000000;
+        cursor: pointer;
+        background: #c4c4c4;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+.first_row {
+    .ant-collapse-content-box {
+        background: #efefef;
+        border: 0.2px solid #000000;
+        box-sizing: border-box;
+    }
+    .ant-collapse-header {
+        box-sizing: border-box;
+    }
+}
+
+.fa-arrow-left,
+.fa-arrow-right {
+    cursor: pointer;
+}
+
+.table_container {
+    overflow-x: auto;
+    .table {
+        width: 100%;
+    }
+    .paginations_row {
+        align-content: center;
+        float: right;
+    }
+}
+
+
+.collapse_icons {
+    .ant-collapse-arrow {
+        border: 1px solid white;
+    }
+    svg {
+        color: white;
+    }
+    
+}
+
+// ----------------------------------------------------------------------------------------
+@media only screen and (min-width: 2300px) and (max-width:2652px) {
+    .Submitted_Date_title,
+    .Customer_name_title,
+    .Location_title,
+    .Accepted_Date_title,
+    .Completed_Date_title,
+    .accept_order_title {
+        font-size: 22px;
+        line-height: 22px;
+        margin-right: 55px !important;
+    }
+
+    .Submitted_Date,
+    .Customer_name,
+    .Location,
+    .Accepted_Date,
+    .Completed_Date,
+    .accept_order,
+    .order_body,
+    .primary_body,
+    .createdby_body {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .order_body,
+    .primary_body,
+    .createdby_body {
+        padding-left: 1em;
+    }
+    .order_head,
+    .primary_head,
+    .createdby_head {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .view_edit_btn {
+        button {
+            position: absolute;
+            right: 7vw !important;
+            z-index: 1;
+            font-size: 18px;
+            line-height: 22px;
+            width: 120px;
+            height: 35px;
+            margin-top: -1.5em;
+        }
+        span {
+            cursor: pointer;
+        }
+    }
+    .listItem {
+        line-height: 4em;
+    }
+    .row_pages_length,
+    .total_pages_length,
+    .current_page{
+        font-size: 22px !important;
+        
+    }
+    .homepage-btn{
+        width: 140px !important;
+        height: 45px !important;
+        
+    }
+    .home-btn-text{
+        font-size: 20px !important;
+        font-family: "Montserrat", sans-serif !important;
+    }
+    .order_head{
+        margin-left: 40px !important;
+    }
+    .accept_order{
+        width: 250px !important;
+    }
+    //    #title-type{
+    //     margin-left: 64px !important;
+    // }  
+    // #reciept-head{
+    //     margin-left: 0px !important;
+    // }
+    // #created-head{
+    //     margin-left: 0px !important;
+
+    // }
+}
+@media only screen and (min-width: 2200px) and (max-width:2380px){
+    .Submitted_Date_title{
+        margin-right: 30px !important;
+    }
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 2300px) {
+    .Submitted_Date_title,
+    .Customer_name_title,
+    .Location_title,
+    .Accepted_Date_title,
+    .Completed_Date_title,
+    .accept_order_title {
+        font-size: 20px;
+        line-height: 22px;
+        margin-right: 30px !important;
+    }
+    .Submitted_Date,
+    .Customer_name,
+    .Location,
+    .Accepted_Date,
+    .Completed_Date,
+    .accept_order,
+    .order_body,
+    .primary_body,
+    .createdby_body {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .order_body,
+    .primary_body,
+    .createdby_body {
+        padding-left: 0.7em;
+    }
+    .order_head,
+    .primary_head,
+    .createdby_head {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .view_edit_btn {
+        button {
+            position: absolute;
+            right: 5.9vw;
+            z-index: 1;
+            font-size: 17px;
+            line-height: 22px;
+            width: 120px;
+            height: 35px;
+            margin-top: -1.5em;
+        }
+    }
+    .listItem {
+        line-height: 3em;
+    }
+    .row_pages_length,
+    .total_pages_length,
+    .current_page{
+        font-size: 20px !important;
+        
+    }
+  
+    
+
+.homepage-btn{
+    width: 130px !important;
+    height: 45px !important;
+    
+}
+.home-btn-text{
+    font-size: 19px !important;
+    font-family: "Montserrat", sans-serif !important;;
+}
+.order_head{
+    margin-left: 40px !important;
+}
+//    #title-type{
+//     margin-left: 64px !important;
+// }  
+// #reciept-head{
+//     margin-left: 10px !important;
+// }
+// #created-head{
+//     margin-left: 40px !important;
+
+// }
+}
+@media only screen and (min-width: 1800px) and (max-width:2000px){
+    .Submitted_Date_title{
+        margin-right: 30px !important;
+    }
+}
+
+
+@media only screen and (min-width: 1524px) and (max-width:2000px) {
+    .Submitted_Date_title,
+    .Customer_name_title,
+    .Location_title,
+    .Accepted_Date_title,
+    .Completed_Date_title,
+    .accept_order_title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .Submitted_Date,
+    .Customer_name,
+    .Location,
+    .Accepted_Date,
+    .Completed_Date,
+    .accept_order,
+    .order_body,
+    .primary_body,
+    .createdby_body {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .order_body,
+    .primary_body,
+    .createdby_body {
+        padding-left: 1em;
+    }
+    .order_head,
+    .primary_head,
+    .createdby_head {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .view_edit_btn {
+        button {
+            position: absolute;
+            right: 5vw;
+            z-index: 1;
+            font-size: 15px;
+            line-height: 22px;
+            width: 100px;
+            height: 35px;
+            margin-top: -1.5em;
+        }
+        span {
+            cursor: pointer;
+        }
+    }
+    .listItem {
+        line-height: 4em;
+    }
+    .row_pages_length,
+    .total_pages_length,
+    .current_page{
+        font-size: 18px !important;
+        
+    }
+    .homepage-btn{
+        width: 120px !important;
+        height: 40px !important;
+        
+    }
+    .home-btn-text{
+        font-size: 17px !important;
+        font-family: "Montserrat", sans-serif !important;;
+    }
+    // .order_head{
+    //     margin-left: 40px !important;
+    // }
+       #title-type{
+        margin-right: 58px !important;
+    }  
+    #orderId{
+        margin-right: 5px !important;
+    }
+    #reciept-head{
+        margin-left: 15px !important;
+    }
+    #created-head{
+        margin-left: 20px !important;
+    
+    }
+}
+@media only screen and (min-width:2200px) and (max-width:2400px){
+
+    .view_edit_btn {
+        button {
+            position: absolute;
+            right: 6vw !important;
+            z-index: 1;
+            font-size: 15px;
+            line-height: 22px;
+            width: 120px;
+            height: 35px;
+            margin-top: -1.5em;
+        }
+    }
+}
+@media only screen and (min-width:2000px) and (max-width:2200px){
+
+    .view_edit_btn {
+        button {
+            position: absolute;
+            right: 5.6vw !important;
+            z-index: 1;
+            font-size: 15px;
+            line-height: 22px;
+            width: 120px;
+            height: 35px;
+            margin-top: -1.5em;
+        }
+    }
+}
+@media only screen and (min-width:1850px) and (max-width:2000px){
+
+    .view_edit_btn {
+        button {
+            position: absolute;
+            right: 5vw !important;
+            z-index: 1;
+            font-size: 15px;
+            line-height: 22px;
+            width: 120px;
+            height: 35px;
+            margin-top: -1.5em;
+        }
+    }
+}
+
+@media only screen and (min-width:1700px) and (max-width:1850px){
+
+    .view_edit_btn {
+        button {
+            position: absolute;
+            right: 4.5vw !important;
+            z-index: 1;
+            font-size: 15px;
+            line-height: 22px;
+            width: 120px;
+            height: 35px;
+            margin-top: -1.5em;
+        }
+    }
+}
+
+
+
+@media only screen and (min-width:1524px) and (max-width:1700px){
+
+    .view_edit_btn {
+        button {
+            position: absolute;
+            right: 4vw !important;
+            z-index: 1;
+            font-size: 15px;
+            line-height: 22px;
+            width: 120px;
+            height: 35px;
+            margin-top: -1.5em;
+        }
+    }
+}
+@media only screen and (min-width:1528px) and (max-width:1600px){
+
+    .view_edit_btn {
+        button {
+            position: absolute;
+            right: 2vw !important;
+            z-index: 1;
+            font-size: 15px;
+            line-height: 22px;
+            width: 120px;
+            height: 35px;
+            margin-top: -1.5em;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1524px) {
+    .Submitted_Date_title,
+    .Customer_name_title,
+    .Location_title,
+    .Accepted_Date_title,
+    .Completed_Date_title,
+    .accept_order_title {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .Submitted_Date,
+    .Customer_name,
+    .Location,
+    .Accepted_Date,
+    .Completed_Date,
+    .accept_order,
+    .order_body,
+    .primary_body,
+    .createdby_body {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .order_body,
+    .primary_body,
+    .createdby_body {
+        padding-left: 0.7em;
+    }
+    .order_head,
+    .primary_head,
+    .createdby_head {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .view_edit_btn {
+        button {
+            position: absolute;
+            right: 1vw;
+            z-index: 1;
+            font-size: 15px;
+            line-height: 22px;
+            width: 120px;
+            height: 35px;
+            margin-top: -1.5em;
+        }
+    }
+    .listItem {
+        line-height: 3em;
+    }
+    .row_pages_length,
+    .total_pages_length,
+    .current_page{
+        font-size: 15px !important;
+        
+    }
+    .homepage-btn{
+        width: 110px !important;
+        height: 35px !important;
+        
+    }
+    .home-btn-text{
+        font-size: 15px !important;
+        font-family: "Montserrat", sans-serif !important;;
+    }
+     //    #title-type{
+    //     margin-left: 58px !important;
+    // }  
+    #reciept-head{
+        margin-left: 5px !important;
+    }
+    #created-head{
+        margin-left: 20px !important;
+    
+    }
+
+}
+@media only screen and (min-width:1150px) and (max-width:1300px){
+    .view_edit_btn {
+        button {
+        
+            right: -0.5vw !important;
+          
+        }
+    }
+}
+@media only screen and (min-width: 667px) and (max-width: 992px) {
+    .Submitted_Date_title,
+    .Customer_name_title,
+    .Location_title,
+    .Accepted_Date_title,
+    .Completed_Date_title,
+    .accept_order_title {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .Submitted_Date,
+    .Customer_name,
+    .Location,
+    .Accepted_Date,
+    .Completed_Date,
+    .accept_order,
+    .order_body,
+    .primary_body,
+    .createdby_body {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .order_body,
+    .primary_body,
+    .createdby_body {
+        padding-left: 1em;
+    }
+    .order_head,
+    .primary_head,
+    .createdby_head {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .view_edit_btn {
+        font-size: 13px;
+        line-height: 22px;
+        width: 100px;
+        height: 30px;
+        margin: -45px 1.3em;
+        padding-top: 0.7em;
+    }
+    .listItem {
+        line-height: 2em;
+    }
+    .row_pages_length,
+    .total_pages_length,
+    .current_page{
+        font-size: 14px !important;
+        
+    }
+    .homepage-btn{
+        width: 140px !important;
+        height: 45px !important;
+        
+    }
+    .home-btn-text{
+        font-size: 15px !important;
+        font-family: "Montserrat", sans-serif !important;;
+    }
+
+}
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+    .Submitted_Date_title,
+    .Customer_name_title,
+    .Location_title,
+    .Accepted_Date_title,
+    .Completed_Date_title,
+    .accept_order_title {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .Submitted_Date,
+    .Customer_name,
+    .Location,
+    .Accepted_Date,
+    .Completed_Date,
+    .accept_order,
+    .order_body,
+    .primary_body,
+    .createdby_body {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .order_body,
+    .primary_body,
+    .createdby_body {
+        padding-left: 1em;
+    }
+    .order_head,
+    .primary_head,
+    .createdby_head {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .view_edit_btn {
+        font-size: 12px;
+        line-height: 22px;
+        width: 100px;
+        height: 30px;
+        padding-top: 0.5em;
+    }
+    .ant-collapse-content-box {
+        min-height: 20em;
+    }
+    .listItem {
+        line-height: 1em;
+    }
+    .row_pages_length,
+    .total_pages_length,
+    .current_page{
+        font-size: 13px !important;
+        
+    }
+    .homepage-btn{
+        width: 100px !important;
+        height: 30px !important;
+        
+    }
+    .home-btn-text{
+        font-size: 14px !important;
+        font-family: "Montserrat", sans-serif !important;;
+    }
+
+}

@@ -1,0 +1,52 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": ["@typescript-eslint", "react-hooks"],
+    "extends": [
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "rules": {
+        "react-hooks/rules-of-hooks": "error",
+        "react-hooks/exhaustive-deps": "warn",
+        "react/prop-types": "off",
+        "eqeqeq": "error",
+        "no-const-assign": "error",
+        "no-duplicate-imports": "error",
+        "no-import-assign": "error",
+        "no-unneeded-ternary": "error",
+        "no-template-curly-in-string": "error",
+        "no-var": "error",
+        "prefer-const": "error",
+        "prefer-spread": "error",
+        "prefer-template": "warn",
+        "quotes": [
+            "error",
+            "single",
+            {
+                "allowTemplateLiterals": true
+            }
+        ],
+        "semi": "error",
+        "no-cond-assign": "error",
+        "no-dupe-args": "error",
+        "no-duplicate-case": "error",
+        "no-empty": "warn",
+        "no-extra-semi": "error",
+        "no-func-assign": "error",
+        "no-invalid-regexp": "error",
+        "no-irregular-whitespace": "error",
+        "no-obj-calls": "error",
+        "no-empty-pattern": "warn",
+        "no-compare-neg-zero": "error"
+    },
+    "settings": {
+        "react": {
+            "pragma": "React",
+            "version": "detect"
+        }
+    }
+}

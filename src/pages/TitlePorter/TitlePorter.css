@@ -1,0 +1,12 @@
+.ExpandableTable .ant-table-cell {
+  background-color: #efefef;
+}
+.ExpandableTable .ant-table-cell:focus {
+  background-color: #efefef;
+}
+.ExpandableTable .ant-table-cell:hover {
+  background-color: #efefef;
+}
+.ExpandableTable .ant-table-cell:active {
+  background-color: #efefef;
+}

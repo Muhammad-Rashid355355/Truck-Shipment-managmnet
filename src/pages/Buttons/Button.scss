@@ -1,0 +1,20 @@
+button {
+    font-size: 13px;
+    font-weight: 400;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    .anticon-search:hover,
+    .anticon-filter:hover {
+        color: #fff !important;
+    }
+    background-color: #44aa99 !important;
+    color: #fff !important;
+    cursor: pointer;
+}

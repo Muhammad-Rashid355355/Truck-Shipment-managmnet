@@ -1,0 +1,123 @@
+// .georg-div{
+//     // background-color: aqua;
+//     min-height: 450px !important;
+// }
+
+.GeorgDownload{
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 22px;
+    font-weight: bold;
+}
+.label-jwt-auth-div{
+    width: 300px !important;
+     height: 40px !important;
+    display: flex;
+    border-radius: 5px;
+    border: 2px solid grey;
+    justify-content: center;
+}
+.label-jwt-auth-text{
+    font-family: "Montserrat", sans-serif !important;
+    position: absolute;
+    font-size: 15px; 
+    line-height: 40px;
+}
+.view-credential-btn{
+    width:300px !important;
+    margin-left: 20px !important;
+    border: 2px solid grey;
+    
+}
+.hr-tag{
+    margin-left: -115px !important;
+    border: 1px solid whitesmoke
+}
+.Basic-info{
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.App-Name{
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+}
+.App-Name-counting{
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 100px;
+    display: inline-block;
+}
+.basic-info-input{
+      width: 210px;
+      height: 30px;
+      border-radius: 5px;
+      border: 1px solid rgb(196, 185, 185);
+      padding-left: 10px;
+
+}
+.short-desc{
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.short-desc-input{
+    width: 397px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(196, 185, 185);
+    padding-left: 10px;
+}
+.selected-menu{
+    width: 625px !important;
+    // margin-left: -120px;
+    margin-top: 10px;
+    border-radius: 5px !important;
+    border: 2px solid grey;
+}
+.ant-select-selection-overflow{
+    height: 100px !important;
+    
+}
+.ant-select-selection-overflow-item{
+    align-self: auto !important;
+}
+@media only screen and (min-width:2000px) and (max-width:2652px){
+    .label-jwt-auth-div{
+        width: 300px !important;
+         height: 50px !important;
+      
+    }
+   
+}
+@media only screen and (min-width:1528px) and (max-width:2000px){
+    .label-jwt-auth-div{
+        width: 300px !important;
+         height: 50px !important;
+      
+    }
+  
+}
+@media only screen and (min-width:700px) and (max-width:1224px){
+    .view-credential-btn{
+        height: 40px;
+      
+    }
+    .label-jwt-auth-text{
+        font-size: 14px !important;
+    }
+  
+}
+@media only screen and (min-width:700px) and (max-width:1005px){
+    .short-desc{
+        margin-left:0px !important;
+    }
+    .short-desc-input{
+        margin-left: 0px !important;
+    }
+}

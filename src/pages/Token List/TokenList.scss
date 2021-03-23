@@ -1,0 +1,766 @@
+.ant-checkbox-wrapper:hover .ant-checkbox-inner, 
+.ant-checkbox:hover .ant-checkbox-inner, 
+.ant-checkbox-input:focus + .ant-checkbox-inner {
+    border-color: #117733 !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color:  #117733 !important;
+}
+.add_new_key {
+    background: #117733;
+    border: 1px solid #117733;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.editable-row .ant-form-item-explain {
+    position: absolute;
+    top: 100%;
+    font-size: 12px;
+}
+
+.ant-table-thead {
+    .ant-table-cell {
+        font-family: "Montserrat", sans-serif !important;
+        font-style: normal;
+        font-weight: bold;
+        color: #332288;
+
+    }
+}
+
+.ant-table-tbody {
+    .ant-table-cell {
+        font-family: "Montserrat", sans-serif !important;
+        font-style: normal;
+        font-weight: normal;
+        color: #332288;
+    }
+}
+.edit_btn {
+    font-family: "Montserrat", sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    color: #332288;
+    border: 1px solid #332288;
+    box-sizing: border-box;
+}
+.revoke_key {
+    font-family: "Montserrat", sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+    background: #cc6677;
+    border-radius: 6px;
+}
+
+.ant-pagination {
+    display: none;
+}
+
+.table_header {
+    text-align: center;
+    align-items: center;
+    background: #d9f2ff;
+    border: 0.2px solid #000000;
+    box-sizing: border-box;
+
+    .table_head {
+        font-family: "Montserrat", sans-serif !important;
+        font-style: normal;
+        font-weight: bold;
+        color: #332288;
+    }
+}
+.table_header {
+    min-height: 70px;
+}
+
+
+/* Extra Large screens ----------- */
+@media only screen and (min-width:2052px) and (max-width:2652px){
+.edit{
+    font-size: 60px !important;
+    margin-top: -60px !important;
+}
+   .Name{
+       margin-left: -70px !important;
+   }
+   
+    .type{
+        margin-left: -40px !important;
+    }
+    
+    .export_csv{
+        
+        width: 150px !important;
+        height: 50px !important;
+    }
+
+.anticon svg{
+    font-size: 22px !important;
+    margin-left: -2px !important;
+    margin-top: -5px !important; 
+
+    
+}
+
+    .add_new_key {
+        width: 170px;
+        height: 40px;
+        border-radius: 6px;
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .new_key_row {
+        margin-top: 2em;
+        margin-bottom: 0.7em;
+        min-height: 80px !important;
+    }
+    .ant-table-thead {
+        .ant-table-cell {
+            font-size: 22px !important;
+            line-height: 22px;
+        }
+    }
+    .ant-table-tbody {
+        .ant-table-cell {
+            font-size: 22px !important;
+            line-height: 22px;
+        }
+    }
+    .ant-btn{
+        width: 80px !important;
+        height: 48px !important;
+    }
+   
+    .edit_btn {
+        font-size: 17px !important;
+        line-height: 22px;
+        width: 65px ;
+        height: 30px ;
+        border-radius: 5px;
+    }
+    .revoke_key {
+        font-size: 17px !important;
+        line-height: 22px;
+        width: 120px;
+        height: 38px;
+        border-radius: 5px;
+        
+    }
+
+    .table_head {
+        font-size: 22px !important;
+        line-height: 22px;
+    }
+    .genrated-app {
+        font-family: "Montserrat", sans-serif !important;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px !important;
+        line-height: 22px;
+        color: #332288;
+        position: absolute;
+        margin-top: -23px !important;
+    }
+    .GA-img {
+        width: 90px;
+        border-radius: 30px !important;
+        height: 80px !important;
+        
+    }
+    .peter,
+    .activated {
+        font-size: 21px !important;
+    }
+    .live-account,
+    .update,
+    .JWT,
+    .intend-publish,
+    .Account-level {
+        font-size: 19px !important;
+    }
+    .btn-edit {
+        width: 80px !important;
+        height: 50px !important;
+    }
+    .revoke-btn {
+        width: 140px !important;
+        height: 45px !important;
+        margin-left: 25px !important;
+    }
+}
+@media only screen and (min-width:1500px) and (max-width:1700px){
+    .ant-table-thead {
+        .ant-table-cell {
+            font-size: 16px !important;
+            line-height: 22px;
+        }
+    }
+}
+
+    
+@media only screen and (min-width:1524px) and (max-width:2052px){
+
+  
+    .edit{
+        font-size: 60px !important;
+        margin-top: -60px !important;
+    }
+   
+    .Name{
+        margin-left: -40px !important;
+    }
+    
+    .type{
+        margin-left: -40px !important;
+    }
+   
+    .export_csv{
+        
+        width: 120px !important;
+        height: 50px !important;
+    }
+
+    .anticon svg{
+        font-size: 20px !important;
+        margin-left: -2px !important;
+        margin-top: -5px !important; 
+    
+        
+    }
+    .add_new_key {
+        width: 170px;
+        height: 40px;
+        border-radius: 6px;
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .new_key_row {
+        margin-top: 2em;
+        margin-bottom: 0.7em;
+    }
+    .ant-table-thead {
+        .ant-table-cell {
+            font-size: 14px !important;
+            line-height: 22px;
+        }
+    }
+    .ant-table-tbody {
+        .ant-table-cell {
+            font-size: 17px !important;
+            line-height: 22px;
+              
+        }
+    }
+    .ant-btn{
+        width: 80px !important;
+        height: 48px !important;
+    }
+    .ant-btn span{
+        font-size: 20px;
+    }
+    .edit_btn {
+        font-size: 17px !important;
+        line-height: 22px;
+        width: 65px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    .revoke_key {
+        font-size: 17px !important;
+        line-height: 22px;
+        width: 120px !important;
+        height: 38px !important;
+        border-radius: 5px;
+    }
+
+    .table_head {
+        font-size: 20px !important;
+        line-height: 22px;
+    }
+    .genrated-app {
+        font-family: "Montserrat", sans-serif !important;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px !important;
+        line-height: 22px;
+        color: #332288;
+        position: absolute;
+        margin-top: -23px !important;
+    }
+    .GA-img {
+        width: 80px;
+        border-radius: 30px !important;
+        height: 80px !important;
+    }
+    .peter,
+    .activated {
+        font-size: 16px !important;
+    }
+    .live-account,
+    .update,
+    .JWT,
+    .intend-publish,
+    .Account-level {
+        font-size: 17px !important;
+    }
+    .btn-edit {
+        width: 80px !important;
+        height: 50px !important;
+    }
+    .revoke-btn {
+        width: 140px !important;
+        height: 45px !important;
+        margin-left: 25px !important;
+    }
+}
+    
+
+@media only screen and (min-width: 1524px) {
+   
+    
+    .add_new_key {
+        width: 213px;
+        height: 60px;
+        border-radius: 6px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    // .new_key_row {
+    //     margin-top: 2em;
+    //     margin-bottom: 2em;
+    // }
+    .ant-table-thead {
+        .ant-table-cell {
+            font-size: 19px;
+            line-height: 22px;
+        }
+    }
+    .ant-table-tbody {
+        .ant-table-cell {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    .ant-btn{
+        width: 80px !important;
+        height: 50px !important;
+    }
+    .ant-btn span{
+        font-size: 18px;
+    }
+    .edit_btn {
+        font-size: 18px;
+        line-height: 22px;
+        width: 67px;
+        height: 40px;
+        border-radius: 6px;
+    }
+    .revoke_key {
+        font-size: 18px;
+        line-height: 22px;
+        width: 133px;
+        height: 40px;
+        border-radius: 6px;
+    }
+
+   
+}
+/* Large screens ----------- */
+@media only screen and (min-width: 1224px) and (max-width: 1524px) {
+   
+    .edit{
+        font-size: 60px !important;
+        margin-top: -60px !important;
+        margin-left: -5px !important;
+        // position: absolute;
+    }
+  
+    .Name{
+        margin-left: -30px !important;
+    }
+    
+    .type{
+        margin-left: 30px !important;
+    }
+   
+    // .anticon svg{
+    //     font-size: 16px !important;
+    //     margin-left: -2px !important;
+    //     margin-top: 5px !important;  
+        
+    // }
+    .add_new_key {
+        width: 170px;
+        height: 40px;
+        border-radius: 6px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .new_key_row {
+        margin-top: 2em;
+        margin-bottom: 3.2em;
+    }
+    .ant-table-thead {
+        .ant-table-cell {
+            font-size: 11px;
+            line-height: 22px;
+        }
+    }
+    .ant-table-tbody {
+        .ant-table-cell {
+            font-size: 12px;
+            line-height: 22px;
+        }
+    }
+    .ant-btn{
+        width: 60px !important;
+        height: 40px !important;
+    }
+    .ant-btn span{
+        font-size: 16px;
+    }
+    .edit_btn {
+        font-size: 13px;
+        line-height: 22px;
+        width: 65px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    .revoke_key {
+        font-size: 15px;
+        line-height: 22px;
+        width: 120px;
+        height: 38px;
+        border-radius: 5px;
+    }
+
+    .table_head {
+        font-size: 11px;
+        line-height: 22px;
+    }
+    .genrated-app {
+        font-family: "Montserrat", sans-serif !important;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px !important;
+        line-height: 22px;
+        color: #332288;
+        position: absolute;
+        margin-top: -23px !important;
+    }
+    .GA-img {
+        width: 60px;
+        border-radius: 25px !important;
+        height: 60px !important;
+    }
+    .peter,
+    .activated {
+        font-size: 11px !important;
+    }
+    .live-account,
+    .update,
+    .JWT,
+    .intend-publish,
+    .Account-level {
+        font-size: 13px !important;
+    }
+    .btn-edit {
+        width: 60px !important;
+        height: 35px !important;
+    }
+    .revoke-btn {
+        width: 140px !important;
+        height: 45px !important;
+        margin-left: 25px !important;
+    }
+}
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1224px) {
+   
+    .edit{
+        font-size: 60px !important;
+        margin-top: -60px !important;
+        margin-left: -9px !important;
+    }
+
+
+    .Name{
+        margin-left: -30px !important;
+    }
+    .type{
+        margin-left: 30px !important;
+    }
+   
+    .add_new_key {
+        width: 160px;
+        height: 35px;
+        border-radius: 5px;
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .new_key_row {
+        margin-top: 1em;
+        margin-bottom: 3.2em;
+    }
+    .ant-table-thead {
+        .ant-table-cell {
+            font-size: 12px;
+            line-height: 22px;
+        }
+    }
+    .edit_btn {
+        font-size: 12px;
+        line-height: 22px;
+        width: 55px;
+        height: 28px;
+        border-radius: 5px;
+    }
+
+    .table_head {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .genrated-app {
+        font-family: "Montserrat", sans-serif !important;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px !important;
+        line-height: 22px;
+        position: absolute;
+      margin-top: -23px !important;
+
+        color: #332288;
+    }
+    .GA-img {
+        width: 55px;
+        border-radius: 25px !important;
+        height: 55px !important;
+    }
+    .peter,
+    .activated {
+        font-size: 14px !important;
+    }
+    .live-account,
+    .update,
+    .JWT,
+    .intend-publish,
+    .Account-level {
+        font-size: 14px !important;
+    }
+    .btn-edit {
+        width: 55px !important;
+        height: 30px !important;
+    }
+
+    .revoke-btn {
+        width: 140px !important;
+        height: 45px !important;
+    }
+    // .anticon svg{
+    // margin-left: -2px !important;
+    // margin-top: -5px !important; 
+    // }
+}
+
+@media only screen and (max-width: 890px) and (min-width: 768px) {
+    .btn-edit {
+        margin-left: -14px;
+    }
+}
+@media only screen and (min-width: 1188px) {
+    .peter {
+        margin-left: 15px;
+    }
+}
+@media only screen and (min-width: 00px) and (max-width: 767px) {
+    .revoke-btn {
+        margin-top: 5px;
+    }
+    .type{
+        margin-left: 0px !important;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 800) {
+    .revoke-btn {
+        margin-left: 5px;
+    }
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  
+    .edit{
+        font-size: 60px !important;
+        margin-top: -60px !important;
+        margin-left: -9px !important;
+    }
+  
+    .add_new_key {
+        width: 150px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .new_key_row {
+        margin-top: 1em;
+        margin-bottom: 0.7em;
+    }
+    .ant-table-thead {
+        .ant-table-cell {
+            font-size: 13px;
+            line-height: 22px;
+        }
+    }
+    .edit_btn {
+        font-size: 10px;
+        line-height: 22px;
+        width: 50px;
+        height: 25px;
+        border-radius: 5px;
+    }
+
+    .table_head {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .GA-img {
+        width: 70px;
+        border-radius: 20px !important;
+        height: 60px !important;
+    }
+    .peter,
+    .activated {
+        font-size: 11px !important;
+    }
+    .live-account,
+    .update,
+    .JWT,
+    .intend-publish,
+    .Account-level {
+        font-size: 11px !important;
+    }
+    .btn-edit {
+        width: 50px !important;
+        height: 30px !important;
+    }
+    .revoke-btn {
+        width: 100px !important;
+        height: 40px !important;
+    }
+}
+.genrated-app {
+    font-family: "Montserrat", sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #332288;
+    position: absolute;
+    // margin-top: -23px !important;
+}
+
+.peter {
+    font-family: "Montserrat", sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #332288;
+}
+.activated {
+    font-family: "Montserrat", sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #332288;
+}
+.live-account {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #332288;
+}
+.update {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #332288;
+}
+.JWT {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #332288;
+}
+
+.intend-publish {
+    font-family: "Montserrat", sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #332288;
+}
+
+.Account-level {
+    font-family: "Montserrat", sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #332288;
+}
+
+.btn-edit {
+    border: 1px solid #332288;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 67px;
+    height: 40px;
+    text-align: center;
+}
+
+.edit {
+    font-family: "Montserrat", sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #332288;
+}
+.revoke-btn {
+    background: #cc6677;
+    border-radius: 6px;
+    width: 133px;
+    height: 40px;
+}
+.revoke-text {
+    font-family: "Montserrat", sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+}
+@media only screen and (max-width: 1950px) and (min-width: 1500px) {
+    .revoke-btn {
+        margin-left: 20px;
+    }
+}
