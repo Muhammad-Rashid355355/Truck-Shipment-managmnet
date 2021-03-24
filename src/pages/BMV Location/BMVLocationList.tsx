@@ -81,25 +81,25 @@ const BMVLocationList: React.FC = () => {
         {
             title: 'Location',
             dataIndex: 'location_name',
-            width: '10vw',
+            width: '8vw',
             editable: true,
         },
         {
             title: 'Address 1',
             dataIndex: 'address_1',
-            width: '15vw',
+            width: '17vw',
             editable: true,
         },
         {
             title: 'Address 2',
             dataIndex: 'address_2',
-            width: '17vw',
+            width: '18vw',
             editable: true,
         },
         {
             title: 'City',
             dataIndex: 'city',
-            width: '8vw',
+            width: '7vw',
             editable: true,
         },
         {
@@ -111,30 +111,30 @@ const BMVLocationList: React.FC = () => {
         {
             title: 'Zip',
             dataIndex: 'zip',
-            width: '8vw',
+            width: '6vw',
             editable: true,
         },
         {
             title: 'Phone',
             dataIndex: 'phone',
-            width: '10vw',
+            width: '9vw',
             editable: true,
         },
         {
             title: 'Fax',
             dataIndex: 'fax',
-            width: '10vw',
+            width: '6vw',
             editable: true,
         },
         {
             title: 'Email',
             dataIndex: 'email',
-            width: '18vw',
+            width: '14vw',
             editable: true,
         },
 
         {
-            width: '8vw',
+            width: '6vw',
 
             // title: 'Last Name',
             // dataIndex: 'operation',
