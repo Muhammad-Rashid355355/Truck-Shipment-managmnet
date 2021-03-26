@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { Button, Col, Row } from 'antd';
+import { Button, Col, Input, Row } from 'antd';
 import React, { useRef, useState } from 'react';
 import './ConsumerSecrets.scss';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
@@ -55,8 +55,8 @@ const ConsumerSecret: React.FC = () => {
                     <Row>
                         <Col>
                         <div style={{display:'flex'}}>
-                            <input className='Api-Key-input' placeholder="Api Key" type="text" />
-                             <button  className="Copy-Api-keys-btn"><span className="copy-Api-btn-text">Copy</span></button>
+                        <Input  className='Api-Key-input' placeholder="Api Key" type="text"/>                           
+                        <Button className="Copy_Api_key_btn">Copy</Button>
                             </div>
                         </Col>
                     </Row>
@@ -68,9 +68,11 @@ const ConsumerSecret: React.FC = () => {
                     <Row>
                         <Col>
                         <div style={{display:'flex'}}>
-                            <input className='Api-secrets-input' placeholder="Api Secrets" type="password" ></input>
-                             <button className="Copy-Api-secrets-btn"><span className="copy-secerts-btn-text">Copy</span></button>
-                            <button className="regenrate-btn"><span>Regenerate</span></button>
+                          
+                            <Input  className='Api-secrets-input' placeholder="Api Secrets" type="password" />
+                             <Button className="Copy_Api_secrets_btn">Copy</Button>
+
+                             <Button className="regenrated_btn">Regenrate</Button>
                             </div>
                         </Col>
                     </Row>

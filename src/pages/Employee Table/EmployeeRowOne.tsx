@@ -31,7 +31,6 @@ const EmployeeRowOne: React.FC = () => {
                     </small>
                 </Col>
                 <Col className="search_section" style={{ paddingRight: '1em' }} >
-
                     <ButtonHOC
                         radius='1.5rem'
                         border='1px solid #332288'
@@ -39,15 +38,10 @@ const EmployeeRowOne: React.FC = () => {
                     >
                         Export CSV</ButtonHOC>
                     <Input
-
                         className='search_input'
-                        placeholder='Aspen Weste' />
-
-
-
+                        placeholder='Search' />
                     <ButtonHOC className='search'
                         border='1px solid #332288'
-
                         icon={<SearchOutlined style={{ color: '#332288' }} />}>
                     </ButtonHOC>
                     {/* </span> */}

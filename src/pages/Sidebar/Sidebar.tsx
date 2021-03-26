@@ -58,7 +58,7 @@ const Sidebar: React.FC = () => {
                 <Menu
                     className="list_itms"
                     mode="inline"
-                    defaultOpenKeys={['sub1', 'sub2', 'sub4', 'sub5']}
+                    defaultOpenKeys={['sub1', 'sub2', 'sub4', 'sub5', 'sub7']}
                     onOpenChange={onOpenChange}
                     style={{ height: '80%' }}
                     inlineCollapsed={collapsed}
@@ -85,47 +85,66 @@ const Sidebar: React.FC = () => {
                     >
                         <Menu.Item className="sub_items" key="1" >
                             <Link to="/bmv_owner_list" className="slider-sub-menu">
-                           BMV Owners 
+                                BMV Owners
 
                            </Link>
                             {collapsed ? (
                                 ''
                             ) : (
-                                    <span className="plus">
-                                        {' '}
-                                        <PlusSvg />
-                                    </span>
-                                )}
+                                <span className="plus">
+                                    {' '}
+                                    <PlusSvg />
+                                </span>
+                            )}
                         </Menu.Item>
                         <Menu.Item className="sub_items" key="2">
                             <Link to='/bmv_location_list' className="slider-sub-menu">
-                             BMV Locations 
+                                BMV Locations
                             </Link>
 
                             {collapsed ? (
                                 ''
                             ) : (
-                                    <span className="plus">
-                                        {' '}
-                                        <PlusSvg />
-                                    </span>
-                                )}
+                                <span className="plus">
+                                    {' '}
+                                    <PlusSvg />
+                                </span>
+                            )}
                         </Menu.Item>
                         <Menu.Item className="sub_items" key="3">
-                            <Link to="/token_list"  className="slider-sub-menu">
-                                  API Tokens
+                            <Link to="/token_list" className="slider-sub-menu">
+                                API Tokens
                                 <span style={{ color: '#40623A' }} >
                                     {collapsed ? (
                                         ''
                                     ) : (
-                                            <span className="plus">
-                                                {' '}
-                                                <PlusSvg />
-                                            </span>
-                                        )}
+                                        <span className="plus">
+                                            {' '}
+                                            <PlusSvg />
+                                        </span>
+                                    )}
                                 </span>
                             </Link>
                         </Menu.Item>
+                    </SubMenu>
+                    <SubMenu
+                        className="menu_items"
+                        key="sub7"
+                        icon={collapsed ? <SettingOutlined /> : ''}
+                        title="Order"
+                    >
+                        <Menu.Item className="sub_items" key="10">
+                            <Link to='/bmv_vehicle_list' className="slider-sub-menu">
+                                Orders List
+
+                            </Link>
+                        </Menu.Item>
+                        {/* <Menu.Item className="sub_items" key="11">
+                            <Link to='/more_details' className="slider-sub-menu">
+
+                                Vehicle Registration Form
+                            </Link>
+                        </Menu.Item> */}
                     </SubMenu>
                     <SubMenu
                         className="menu_items"
@@ -144,8 +163,8 @@ const Sidebar: React.FC = () => {
                             style={{ color: '#40623A' }}
                             key="5"
                         >
-                            <Link to="/bmv_owner_form"  className="slider-sub-menu">
-                                    BMV Owner Form
+                            <Link to="/bmv_owner_form" className="slider-sub-menu">
+                                BMV Owner Form
                                 <span style={{ color: '#40623A' }}>
                                 </span>
                             </Link>
@@ -159,7 +178,7 @@ const Sidebar: React.FC = () => {
                     >
                         <Menu.Item className="sub_items" key="6">
 
-                            <Link to='/bmv_manager_list'  className="slider-sub-menu">
+                            <Link to='/bmv_manager_list' className="slider-sub-menu">
                                 BMV Manager List
                             </Link>
                         </Menu.Item>
@@ -182,32 +201,14 @@ const Sidebar: React.FC = () => {
                             </Link>
                         </Menu.Item>
                         <Menu.Item className="sub_items" key="9">
-                            <Link to='/bmv_employee_form'  className="slider-sub-menu">
+                            <Link to='/bmv_employee_form' className="slider-sub-menu">
 
                                 BMV Employee Form
                             </Link>
                         </Menu.Item>
                     </SubMenu>
                     {/* </Menu> */}
-                    <SubMenu
-                        className="menu_items"
-                        key="sub7"
-                        icon={collapsed ? <SettingOutlined /> : ''}
-                        title="Vehicle"
-                    >
-                        <Menu.Item className="sub_items" key="10">
-                            <Link to='/bmv_vehicle_list' className="slider-sub-menu">
-                                Vehicle List
 
-                            </Link>
-                        </Menu.Item>
-                        <Menu.Item className="sub_items" key="11">
-                            <Link to='/more_details' className="slider-sub-menu">
-
-                                Vehicle Registration Form
-                            </Link>
-                        </Menu.Item>
-                    </SubMenu>
                     <SubMenu
                         className="menu_items"
                         key="sub8"
@@ -215,7 +216,7 @@ const Sidebar: React.FC = () => {
                         title="Location"
                     >
                         <Menu.Item className="sub_items" key="12">
-                            <Link to='/bmv_location_list'  className="slider-sub-menu">
+                            <Link to='/bmv_location_list' className="slider-sub-menu">
                                 Location List
                             </Link>
                         </Menu.Item>
@@ -240,17 +241,17 @@ const Sidebar: React.FC = () => {
                         Logout
                     </ButtonHOC>
                 ) : (
-                        <Footer style={{ textAlign: 'center', background: 'none' }}>
-                            <ButtonHOC
-                                className="logout_button"
-                                border='1px solid #332288'
-                                radius='0.5rem'
-                            >
-                                Logout
+                    <Footer style={{ textAlign: 'center', background: 'none' }}>
+                        <ButtonHOC
+                            className="logout_button"
+                            border='1px solid #332288'
+                            radius='0.5rem'
+                        >
+                            Logout
                             </ButtonHOC>
 
-                        </Footer>
-                    )}
+                    </Footer>
+                )}
             </Sider>
         </div>
     );

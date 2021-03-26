@@ -1,7 +1,7 @@
 // /* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { Fragment, useState } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { HomePage, EmployeeTable, TokenList, CreateToken, ConsumerSecret, MoreDetailsComponet, Login, TermCondition, PrivateRoute, BMVOwnerList, BMVManagerList, BMVEmployeeList, BMVVehicleList, BMVLocationList, BMVOwnerForm, BMVManagerForm, BMVEmployeeForm, BMVLocationForm, GeorgDownload } from './pages/index';
+import { HomePage, EmployeeTable, TokenList, CreateToken, ConsumerSecret, MoreDetailsComponet, Login, TermCondition, PrivateRoute, BMVOwnerList, BMVManagerList, BMVEmployeeList, BMVVehicleList, BMVLocationList, BMVOwnerForm, BMVManagerForm, BMVEmployeeForm, BMVLocationForm, GeorgDownload,ActivatedApp } from './pages/index';
 // import Terms from './pages/Terms Condition/Terms';
 
 const App: React.FC = () => {
@@ -35,6 +35,8 @@ const App: React.FC = () => {
                 <PrivateRoute exact path='/bmv_location_list' isAuthenticated={isAuthenticated} component={BMVLocationList} />
                 <PrivateRoute exact path='/bmv_location_form' isAuthenticated={isAuthenticated} component={BMVLocationForm} />
                 <PrivateRoute exact path='/GeorgDownload' isAuthenticated={isAuthenticated} component={GeorgDownload} />
+                <PrivateRoute exact path='/ActivatedApp' isAuthenticated={isAuthenticated} component={ActivatedApp} />
+           
             </Switch>
         </BrowserRouter>
     </Fragment>;

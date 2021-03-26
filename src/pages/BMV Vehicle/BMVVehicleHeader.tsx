@@ -55,7 +55,7 @@ const BMVVehicleHeader: React.FC = () => {
                 <Col className="search_section" >
                     <Input
                         className='search_input'
-                        placeholder='Aspen Weste' />
+                        placeholder='Search' />
                     <ButtonHOC
                         buttonname='search'
                         ClickHandler={(e: any) => searchData(e)}

@@ -39,6 +39,7 @@ html {
     font-family: "Montserrat", sans-serif !important;
 }
 body {
+    $primary_color: #44aa99;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
     font-size: 1.6rem;
@@ -57,5 +58,3 @@ body {
 /* iPhone 6, 7, 8 ----------- */
 @media only screen and (min-width: 375px) and (max-width: 667px) {
 }
-
-

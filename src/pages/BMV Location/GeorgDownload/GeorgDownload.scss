@@ -3,121 +3,173 @@
 //     min-height: 450px !important;
 // }
 
-.GeorgDownload{
+.GeorgDownload {
     font-family: "Montserrat", sans-serif !important;
-    font-size: 22px;
+    font-size: 18px;
+    color: #332288 !important;
     font-weight: bold;
 }
-.label-jwt-auth-div{
+.label-jwt-auth-div {
     width: 300px !important;
-     height: 40px !important;
+    height: 40px !important;
     display: flex;
-    border-radius: 5px;
-    border: 2px solid grey;
-    justify-content: center;
+    // border-radius: 5px;
+    // border: 2px solid grey;
+    // justify-content: center;
 }
-.label-jwt-auth-text{
+.label-jwt-auth-text {
     font-family: "Montserrat", sans-serif !important;
     position: absolute;
-    font-size: 15px; 
+    font-size: 15px;
+
+    color: rgba(0, 0, 0, 0.85);
     line-height: 40px;
 }
-.view-credential-btn{
-    width:300px !important;
-    margin-left: 20px !important;
-    border: 2px solid grey;
-    
+.view-credential-btn {
+    background-color: #44aa99;
+    color: white !important;
+    width: 300px !important;
+    // margin-left: 20px !important;
+    // border: 2px solid grey;
 }
-.hr-tag{
-    margin-left: -115px !important;
-    border: 1px solid whitesmoke
+.view-credential-btn:hover {
+    background-color: white !important;
+    color: #44aa99 !important;
 }
-.Basic-info{
+.view-credential-btn:focus {
+    // background-color: white !important;
+    color: #44aa99 !important;
+}
+.Basic-info {
     font-family: "Montserrat", sans-serif !important;
-    font-size: 22px;
+    font-size: 18px;
+    color: #332288;
     font-weight: bold;
     margin-top: 30px;
 }
-.App-Name{
+.App-Name {
     font-family: "Montserrat", sans-serif !important;
     font-size: 13px;
+    color: #332288;
     font-weight: bold;
     display: inline-block;
 }
-.App-Name-counting{
+.App-Name-counting {
     font-family: "Montserrat", sans-serif !important;
     font-size: 13px;
+    color: #332288;
     font-weight: bold;
     margin-left: 100px;
     display: inline-block;
 }
-.basic-info-input{
-      width: 210px;
-      height: 30px;
-      border-radius: 5px;
-      border: 1px solid rgb(196, 185, 185);
-      padding-left: 10px;
-
+.basic-info-input {
+    width: 210px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.1px solid #40a9ff;
+    // border: none;
+    padding-left: 10px;
 }
-.short-desc{
+.short-desc {
     font-family: "Montserrat", sans-serif !important;
     font-size: 13px;
+    color: #332288;
     font-weight: bold;
     margin-left: 25px;
 }
-.short-desc-input{
+.short-desc-input {
     width: 397px;
     height: 30px;
     margin-left: 20px;
     border-radius: 5px;
-    border: 1px solid rgb(196, 185, 185);
+    border: 0.1px solid #40a9ff;
     padding-left: 10px;
 }
-.selected-menu{
+.selected-menu {
     width: 625px !important;
     // margin-left: -120px;
     margin-top: 10px;
     border-radius: 5px !important;
-    border: 2px solid grey;
+    border: 0.1px solid #40a9ff;
 }
-.ant-select-selection-overflow{
+.ant-select-selection-overflow {
     height: 100px !important;
-    
 }
-.ant-select-selection-overflow-item{
+.ant-select-selection-overflow-item {
     align-self: auto !important;
 }
-@media only screen and (min-width:2000px) and (max-width:2652px){
-    .label-jwt-auth-div{
+@media only screen and (min-width: 2000px) and (max-width: 2652px) {
+    .label-jwt-auth-div {
         width: 300px !important;
-         height: 50px !important;
-      
+        height: 50px !important;
     }
-   
 }
-@media only screen and (min-width:1528px) and (max-width:2000px){
-    .label-jwt-auth-div{
+@media only screen and (min-width: 1528px) and (max-width: 2000px) {
+    .label-jwt-auth-div {
         width: 300px !important;
-         height: 50px !important;
-      
+        height: 50px !important;
     }
-  
 }
-@media only screen and (min-width:700px) and (max-width:1224px){
-    .view-credential-btn{
+@media only screen and (min-width: 700px) and (max-width: 1224px) {
+    .view-credential-btn {
         height: 40px;
-      
     }
-    .label-jwt-auth-text{
+    .label-jwt-auth-text {
         font-size: 14px !important;
     }
-  
 }
-@media only screen and (min-width:700px) and (max-width:1005px){
-    .short-desc{
-        margin-left:0px !important;
+@media only screen and (min-width: 700px) and (max-width: 1005px) {
+    .short-desc {
+        margin-left: 0px !important;
     }
-    .short-desc-input{
+    .short-desc-input {
         margin-left: 0px !important;
     }
 }
+.ant-tabs-left > .ant-tabs-nav{
+    min-width: 200px !important;
+    // border: 1px solid #117733;
+    // border-radius: 10px !important;
+    
+}
+.ant-tabs-tab-btn {
+    font-size: 18px;
+    color: #332288 !important;
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    font-weight: 400;
+    color: white !important;
+}
+.ant-tabs-tab-btn:hover {
+    color: white !important;
+}
+.ant-tabs-left > .ant-tabs-nav .ant-tabs-tab-active{
+    background-color: #44aa99;
+    color: white !important;
+}
+.ant-tabs-left > .ant-tabs-nav .ant-tabs-tab{
+    // border: 1px solid #117733;
+    border-radius: 10px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    
+}
+.ant-tabs-tab:hover{
+    background-color: #44aa99 ;
+    border: 1px solid #117733;
+    color: white !important;
+    border-radius: 10px !important; 
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.goodCheck_circle{
+    font-size:  16px;
+     color: #08c;
+     width: 1em;
+     height: 1em;
+}
+
+

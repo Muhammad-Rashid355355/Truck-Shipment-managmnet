@@ -5,7 +5,7 @@ import Layout, { Content } from 'antd/lib/layout/layout';
 import './HomePage.scss';
 // import { Sidebar, ContentRoutingPage, HeaderRoutingPage } from '../index';
 import { useLocation } from 'react-router-dom';
-import { Sidebar, ContentRoutingPage, HeaderRoutingPage, EmployeeTable, EditableTable, CreateToken, TermCondition, ConsumerSecret, MoreDetailsComponet, HomePageTable, BMVOwnerList, BMVManagerList, BMVEmployeeList, BMVVehicleList, BMVLocationList, BMVOwnerForm, BMVManagerForm, BMVEmployeeForm, BMVLocationForm,GeorgDownload} from '../index';
+import { Sidebar, ContentRoutingPage, HeaderRoutingPage, EmployeeTable, EditableTable, CreateToken, TermCondition, ConsumerSecret, MoreDetailsComponet, HomePageTable, BMVOwnerList, BMVManagerList, BMVEmployeeList, BMVVehicleList, BMVLocationList, BMVOwnerForm, BMVManagerForm, BMVEmployeeForm, BMVLocationForm,GeorgDownload,ActivatedApp} from '../index';
 
 
 const HomePage: React.FC = () => {
@@ -47,7 +47,9 @@ const HomePage: React.FC = () => {
                                                                         :
                                                                         location.pathname == '/more_details' ? (<MoreDetailsComponet />) :
                                                                         location.pathname == '/GeorgDownload'  ? (<GeorgDownload/>) :
-                                                                            (<HomePageTable />)
+                                                                        location.pathname == '/ActivatedApp'  ? (<ActivatedApp/>) :
+                                                                          
+                                                                        (<HomePageTable />)
                         }
                         {/* <ContentRoutingPage /> */}
                     </Content>

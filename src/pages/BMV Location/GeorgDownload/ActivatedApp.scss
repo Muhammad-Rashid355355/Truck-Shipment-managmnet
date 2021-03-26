@@ -1,0 +1,29 @@
+.ant-result-success .ant-result-icon > .anticon {
+    color: #44aa99;
+}
+
+.Diactivated_btn{
+background-color: #44aa99 !important;
+    width: 245px !important;
+    color: white !important;
+}
+.Diactivated_btn:hover{
+    background-color: white !important;
+        color: #44aa99 !important;
+    }
+    .Diactivated_btn:focus{
+        background-color: white !important;
+            color: #44aa99 !important;
+        }
+.ant-result-title{
+    color: #332288 !important;
+    font-size: 18px !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: bold;
+}
+.ant-result-subtitle{
+    color: #332288 !important;
+    font-size: 14px !important;
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: normal;
+}

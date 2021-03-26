@@ -34,6 +34,7 @@ export { default as BMVVehicleHeader } from './BMV Vehicle/BMVVehicleHeader';
 export { default as BMVLocationList } from './BMV Location/BMVLocationList';
 export { default as BMVLocationForm } from './BMV Location/BMVLocationForm';
 export {default as GeorgDownload}   from './BMV Location/GeorgDownload/GeorgDownload';
+export {default as ActivatedApp} from './BMV Location/GeorgDownload/ActivatedApp';
 
 // svgs section
 export { default as PlusSvg } from './Svg/PlusSvg';
